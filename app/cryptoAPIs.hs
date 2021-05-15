@@ -2,7 +2,15 @@
 
 
 
-
+module CryptoAPIs (
+	btcAPI,
+	ethAPI,
+	adaAPI,
+	xrpAPI,
+	xrpAPI,
+	dotAPI,
+	uniAPI
+	) where
 
 
 
