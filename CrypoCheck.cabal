@@ -23,8 +23,8 @@ extra-source-files:
     CHANGELOG.md
     README.md
 
-executable HaskellTokenCheck
-    main-is:          TokenCheck.hs
+executable HaskellCryptoCheck
+    main-is:          CryptoCheck.hs
 
     -- Modules included in this executable, other than Main.
     -- other-modules:
