@@ -7,10 +7,11 @@
 
 import CryptoAPIs
 
-module Main where
+
+{-module Main where
 
 main :: IO ()
-main = putStrLn "Loading..."
+main = putStrLn "Loading..."-}
 
 
 data Crypto = Crypto { cryptoName   :: String,
