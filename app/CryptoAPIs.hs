@@ -2,7 +2,7 @@
 import Network.HTTP.Base
 import qualified Data.ByteString.Lazy.Char8 as L8
 
-{-module CryptoAPIs (
+module CryptoAPIs (
 	btcAPI,
 	ethAPI,
 	adaAPI,
@@ -10,7 +10,7 @@ import qualified Data.ByteString.Lazy.Char8 as L8
 	xrpAPI,
 	dotAPI,
 	uniAPI
-	) where -}
+	) where
 
 cryptoAPIs =
 
