@@ -1,16 +1,16 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7d8fa75a0dd8769f9622bde05f4345c6879b06aafa7712a35f1b1e14e7a9376e
+-- hash: cddd6445e404117d0b5179c10cb375a34cb1d62dbee051566355c8baf6b7ece6
 
-name:           hsCryptoCheck
+name:           CryptoCheck
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/hsCryptoCheck#readme>
-homepage:       https://github.com/githubuser/hsCryptoCheck#readme
-bug-reports:    https://github.com/githubuser/hsCryptoCheck/issues
+description:    Please see the README on GitHub at <https://github.com/githubuser/CryptoCheck#readme>
+homepage:       https://github.com/githubuser/CryptoCheck#readme
+bug-reports:    https://github.com/githubuser/CryptoCheck/issues
 author:         Author name here
 maintainer:     example@example.com
 copyright:      2021 Author name here
@@ -23,40 +23,42 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/hsCryptoCheck
+  location: https://github.com/githubuser/CryptoCheck
 
 library
   exposed-modules:
       Lib
   other-modules:
-      Paths_hsCryptoCheck
+      Paths_CryptoCheck
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
   default-language: Haskell2010
 
-executable hsCryptoCheck-exe
+executable CryptoCheck-exe
   main-is: Main.hs
   other-modules:
-      Paths_hsCryptoCheck
+      CryptoAPIs
+      CryptoCheck
+      Paths_CryptoCheck
   hs-source-dirs:
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
-    , hsCryptoCheck
+    , CryptoCheck
   default-language: Haskell2010
 
-test-suite hsCryptoCheck-test
+test-suite CryptoCheck-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Paths_hsCryptoCheck
+      Paths_CryptoCheck
   hs-source-dirs:
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
-    , hsCryptoCheck
+    , CryptoCheck
   default-language: Haskell2010
